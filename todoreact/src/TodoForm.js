@@ -20,6 +20,7 @@ export function TodoForm ({onSubmit}){
     <input 
       type="text"
       id="text"
+      placeholder="Type here!"
       autoFocus
       required
       value={newItem}
