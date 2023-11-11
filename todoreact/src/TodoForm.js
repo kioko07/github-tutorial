@@ -15,7 +15,7 @@ export function TodoForm ({onSubmit}){
   
   return (
     <form onSubmit={handleSubmit}>
-    <label htmlFor="Item"> New Item </label> 
+    <label htmlFor="Item"> New Todo Item </label> 
     <br />
     <input 
       type="text"

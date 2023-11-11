@@ -20,7 +20,7 @@ body {
   width: 500px;
 }
 form input{
-  background-color: rgb(4, 131, 211);
+  background-color: rgba(4, 132, 211, 0.966);
   color: white;
   width: 100%;
   margin-bottom: 10px;
