@@ -15,6 +15,7 @@ export function TodoForm ({onSubmit}){
   
   return (
     <form onSubmit={handleSubmit}>
+      <section>
     <label htmlFor="Item"> New Todo Item </label> 
     <br />
     <input 
@@ -27,6 +28,7 @@ export function TodoForm ({onSubmit}){
       onChange={e => setNewItem(e.target.value)}
     /> <br/>
     <button className="btn">Add</button>
+    </section>
   </form>
   )
 }
